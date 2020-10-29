@@ -10,12 +10,9 @@ app.use(cors());
 app.use(express.json());
 
 // routes
-//      app.get("/api", (req, res) => {
-//          res.send("soy api!");
-//      });
-//      app.get("/api/email", (req, res) => {
-//          res.send("soy api email!");
-//      });
+app.get('/', (req, res) => {
+  res.send('Ok!');
+});
 app.use('/api/email', require('./routes/email'));
 // app.use("/api/test", require("./routes/test"));
 
