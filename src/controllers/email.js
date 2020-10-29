@@ -26,7 +26,7 @@ const email = {
       from: `deeblox <${EMAIL_AWS_FROM}>` || 'deeblox test <website@deeblox.com>',
       to: to,
       subject: subject || `Test Subject`,
-      bcc: EMAIL_AWS_BBC || 'gustavo.l@outlook.com',
+      bcc: EMAIL_AWS_BBC,
       html: body_html
     };
   }

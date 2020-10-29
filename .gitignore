@@ -1,5 +1,5 @@
 # my files
 src/routes/test.js
 src/controllers/test.controller.js
-.env
+# .env
 node_modules/
