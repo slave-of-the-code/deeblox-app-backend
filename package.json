@@ -1,0 +1,31 @@
+{
+  "name": "deeblox-app-backend",
+  "version": "1.0.0",
+  "description": "deeblox app backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "prettier": {
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": true,
+    "bracketSpacing": true,
+    "trailingComma": "none",
+    "printWidth": 100,
+    "arrowParens": "always"
+  },
+  "author": "Gustavo Lopez",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.14"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
