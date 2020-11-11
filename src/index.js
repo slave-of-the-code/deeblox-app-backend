@@ -6,7 +6,6 @@ function main() {
 
   app.listen(PORT, () => {
     console.log(`Server running on the port ${PORT}`);
-    // Gustavo_633
   });
 }
 

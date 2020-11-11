@@ -11,9 +11,8 @@ app.use(express.json());
 
 // routes
 app.get('/', (req, res) => {
-  res.send('Ok!');
+  res.send('Server is running!');
 });
 app.use('/api/email', require('./routes/email'));
-// app.use("/api/test", require("./routes/test"));
 
 module.exports = app;

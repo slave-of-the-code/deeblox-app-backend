@@ -1,4 +1,4 @@
-const email = require('../controllers/email');
+const email = require('../services/email.services');
 
 const emailController = {};
 
